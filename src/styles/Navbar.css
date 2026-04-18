@@ -1,0 +1,102 @@
+.navbar {
+  width: 100%;
+  min-height: 4rem;
+  background-color: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 999999;
+  box-shadow: 0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.483);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.languageSelector {
+  margin-right: 1rem;
+}
+
+.languageSelector select {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.languageSelector select:hover {
+  background-color: #5A5454;
+  color: white;
+}
+
+.languageSelector select:focus {
+  outline: none;
+  background-color: #000000;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+}
+
+.navbar a:hover {
+  color: rgba(255, 255, 0, 0.607);
+}
+
+.links a.active {
+  border-bottom: 0.1rem solid rgba(255, 255, 0, 0.607);
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .navbar a {
+    margin: 0.4rem;
+    font-size: 0.9rem;
+  }
+
+  .languageSelector select {
+    padding: 0.2rem 0.2rem;
+    font-size: 0.7rem;
+    
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar a {
+    padding: 0.2rem 0;
+  }
+}
+
+
+
+@media only screen and (max-width: 410px) {
+  .navbar a {
+    margin: 0.3rem;
+    font-size: 0.7rem;
+  }
+
+  .languageSelector select {
+    font-size: 0.6rem;
+
+  }
+}
+
+@media only screen and (min-width: 410px) {
+  .navbar a {
+    padding: 0.2rem 0;
+  }
+}

@@ -1,0 +1,95 @@
+  .vertical-timeline-element-title {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .vertical-timeline-element-subtitle {
+    font-size: 0.7rem;
+    color: #666;
+  }
+  
+  .vertical-timeline-element-content p {
+    font-size: 0.8rem;
+    color: #555;
+  }
+  
+  
+  
+  .vertical-timeline-element-content a {
+    color: #007bff;
+    text-decoration: underline;
+    font-weight: bold;
+    position: absolute;
+    right: 0.8rem;
+    bottom: 0.8rem;
+    margin-top: 1rem; 
+    font-size: 0.7rem; 
+}
+
+  .vertical-timeline-element-date {
+    color: white;
+    font-size: 0.8rem; 
+  }
+  
+  .vertical-timeline-element-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .vertical-timeline::before {
+    background-color: white;
+  }
+  
+  .experience img {
+    height: 100%;
+    width: 100%;
+    border-radius: 3rem;
+  }
+  
+  
+  
+ .experience{
+  min-height: 85vh;
+ }
+
+@media (max-width: 768px) {
+
+   
+
+    .vertical-timeline-element {
+        margin-bottom: 13px; 
+    }
+
+    .vertical-timeline-element-content {
+        padding: 14px;
+    }
+
+    
+
+    .vertical-timeline-element-title {
+        font-size: 1rem; 
+    }
+
+    .vertical-timeline-element-subtitle {
+        font-size: 0.8rem; 
+    }
+
+    .vertical-timeline-element-content p {
+        font-size: 0.8rem;
+    }
+
+    .vertical-timeline-element-date {
+        font-size: 0.8rem; 
+        color: rgb(121, 121, 121);
+    }
+   
+
+    .experience img {
+        border-radius: 2rem; 
+    }
+
+    .vertical-timeline-element-content a {
+        margin-bottom: -8px;
+
+    }
+}
+
