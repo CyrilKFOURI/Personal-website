@@ -1,17 +1,7 @@
-# Cyril Kfouri - Personal Website
+# Cyril Kfouri
 
-Bienvenue sur le dépôt de mon site web personnel ! 🚀
+Source code for my personal website and portfolio.
 
-Ce projet contient le code source de mon portfolio et de ma page en ligne. Il me permet de mettre en avant mes compétences, mon parcours et les différents projets sur lesquels j'ai eu l'occasion de travailler.
+Features my background, professional experiences, and projects.
 
-## À propos
-
-Il s'agit tout simplement de mon espace personnel sur le web, conçu pour :
-- Présenter mes expériences professionnelles.
-- Mettre en valeur mes projets personnels et professionnels.
-- Fournir un moyen simple de me contacter.
-
-🔗 **Lien vers le site :** *(À venir)*
-
----
-*Note : Ce dépôt contient uniquement mon code personnel pour ce site et n'a pas pour but d'être réutilisé ou installé en local par des tiers.*
+🔗 **Website:** *(Coming soon)*
